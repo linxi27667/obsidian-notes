@@ -1,5 +1,8 @@
 # 工作日志汇总索引
 
+## 2026-05-20
+- [LVGL智能家居融合 Phase1实施记录](./2026-05-20/LVGL智能家居融合 Phase1实施记录.md) — 将 `lvgl_demo_v9` 智能家居面板融合进 xiaozhi-for-p4 主项目，完成需求分析(READ_DOC.md)、实施计划(PALN.md)、Phase1代码实现与固件烧录(COM28)；修复 WakeNet 启动崩溃(懒加载)、GT911触摸注册、字体过大问题
+
 ## 2026-04-19
 - [GUI-Guider智能家居仿真器修复-11-48](./2026-04-19/GUI-Guider智能家居仿真器修复/GUI-Guider智能家居仿真器修复-11-48-00.md) — 修复smart_home2.guiguider模板：Application.screen缺少完整widgets定义导致代码生成卡死，从FrontJson派生填充后keys完全匹配
 - [GUI-Guider智能家居仿真器修复-14-20](./2026-04-19/GUI-Guider智能家居仿真器修复/GUI-Guider智能家居仿真器修复-14-20-00.md) — 参考test项目架构重生成setup_scr_*.c，所有源文件编译成功，make链接阶段env target在Git Bash下语法冲突
